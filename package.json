@@ -1,0 +1,21 @@
+{
+  "name": "gpt4api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.1",
+    "googleapis": "^134.0.0",
+    "nodemon": "^3.1.0",
+    "openai": "^3.3.0"
+  }
+}
